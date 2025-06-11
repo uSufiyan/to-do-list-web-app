@@ -1,0 +1,134 @@
+/* Body Styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Theme */
+body.dark {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+/* Container Box */
+.container {
+  background-color: #f4f4f4;
+  padding: 30px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+/* Dark Theme Container */
+body.dark .container {
+  background-color: #2b2b2b;
+}
+
+/* Header Layout */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Theme Toggle Button */
+#themeToggle {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+/* Input + Add Button Layout */
+.input-container {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+/* Input Box */
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #4a90e2;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1rem;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 15px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+/* Hover Effect */
+button:hover {
+  background-color: #0063c6;
+}
+
+/* Task List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* Individual Task */
+li {
+  background: white;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Dark Mode Task */
+body.dark li {
+  background: #3b3b3b;
+}
+
+/* Completed Task Style */
+li.completed span {
+  text-decoration: line-through;
+  color: #888888;
+}
+
+/* Task Text */
+li span {
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+/* Delete Button Style */
+li button.delete {
+  background-color: red;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 420px){
+    h1{
+        font-size: x-large;
+    }
+}
