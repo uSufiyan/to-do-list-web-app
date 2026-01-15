@@ -15,7 +15,7 @@ A responsive To-Do List web application built using HTML, CSS, and JavaScript wi
 - JavaScript (DOM Manipulation)
 
 ## Live Demo
-https://usufiyan.github.io/To-Do_List_Web_App/
+https://usufiyan.github.io/to-do-list-web-app/
 
 ## What I Learned
 - DOM manipulation and event handling in JavaScript
